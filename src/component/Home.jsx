@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import Navbar from "./Navbar";
 import { Outlet } from "react-router-dom";
 // import UserList from "./UserList";
@@ -7,8 +6,6 @@ import { Outlet } from "react-router-dom";
 // import SearchIcon from "@mui/icons-material/Search";
 
 const Home = () => {
- 
-
   return (
     <div>
       <Navbar />
